@@ -1,46 +1,50 @@
                                          // Non-parametrized constructor
-//import java.util.*;
-//class Student
-//{
-//    Student()  // this is constructor (non-parametrized).Esme koi return type nahi hota hai.
-//    {
-//        System.out.println("I'm Constructor");
-//    }
-//
-//}
-//class School
-//{
-//    public static void main(String[] args)
-//    {
-//        Student s1=new Student();  // object banate hi constructor call ho jata hai alag se call karne ki jarurat nahi hai
-//
-//    }
-//}
+/*
+import java.util.*;
+class Student
+{
+   Student()  // this is constructor (non-parametrized).Esme koi return type nahi hota hai.
+   {
+       System.out.println("I'm Constructor");
+   }
+
+}
+class School
+{
+   public static void main(String[] args)
+   {
+       Student s1=new Student();  // object banate hi constructor call ho jata hai alag se call karne ki jarurat nahi hai
+
+   }
+}
+*/
 
                                          //parametrized constructor
 
-//import java.util.*;
-//class Student
-//{
-//    String name;
-//    int age;
-//    Student(String name,int age)
-//    {
-//        this.name=name; // this.name jo declare kiye h name usko refer karta hai aur equal to ke bad jo name h wo constructor wale name ke liye hai
-//        this.age=age;
-//        System.out.println(this.name);
-//        System.out.println(this.age);
-//    }
-//
-//}
-//class School
-//{
-//    public static void main(String[] args)
-//    {
-//        Student s1=new Student("Kunal",22);
-//
-//    }
-//}
+/*
+import java.util.*;
+class Student
+{
+   String name;
+   int age;
+   Student(String name,int age)
+   {
+       this.name=name; // this.name jo declare kiye h name usko refer karta hai aur equal to ke bad jo name h wo constructor wale name ke liye hai
+       this.age=age;
+       System.out.println(this.name);
+       System.out.println(this.age);
+   }
+
+}
+class School
+{
+   public static void main(String[] args)
+   {
+       Student s1=new Student("Kunal",22);
+
+   }
+}
+*/
 
 
                                         // Copy Constructor
